@@ -2,6 +2,7 @@ li {
   position: absolute;
   transition: 1s;
   background-color: hsl(var(--hue), 80%, 80%);
+  border-radius: 2vmin;
   list-style: none;
 
   &:nth-child(1) {
@@ -10,10 +11,12 @@ li {
 
   &:nth-child(2) {
     inset: 0;
+    border-radius: 0;
   }
 
   &:nth-child(3) {
     inset: 0;
+    border-radius: 0;
   }
 
   &:nth-child(4) {
@@ -33,3 +36,19 @@ li {
   }
   
 }
+
+nav {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 20px;
+  }
+} 
