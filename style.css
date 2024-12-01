@@ -1,0 +1,35 @@
+li {
+  position: absolute;
+  transition: 1s;
+  background-color: hsl(var(--hue), 80%, 80%);
+  list-style: none;
+
+  &:nth-child(1) {
+    inset: 0;
+  }
+
+  &:nth-child(2) {
+    inset: 0;
+  }
+
+  &:nth-child(3) {
+    inset: 0;
+  }
+
+  &:nth-child(4) {
+    inset: 40vh 45vw 30vh 40vw;
+  }
+
+  &:nth-child(5) {
+    inset: 40vh 25vw 30vh 60vw;
+  }
+
+  &:nth-child(6) {
+    inset: 40vh 5vw 30vh 80vw;
+  }
+
+  &:nth-child(7) {
+    inset: 40vh -15vw 30vh 100vw;
+  }
+  
+}
